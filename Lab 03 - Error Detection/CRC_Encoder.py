@@ -27,10 +27,10 @@ if __name__ == "__main__":
     keylen = len(generator)
 
     long_division_remainder = longDivision(message, generator)
-    shift_register_remainder = shiftRegister(message, generator)
+    #shift_register_remainder = shiftRegister(message, generator)
 
     print(f"Message in Binary: {message}")
     print(f"Generator Polynomial in Binary: {generator}")
 
     print(f"Remainder using long-hand division: {''.join(map(str, long_division_remainder))}")
-    print(f"Remainder using shift register: {''.join(map(str, shift_register_remainder))}")
+    #print(f"Remainder using shift register: {''.join(map(str, shift_register_remainder))}")
