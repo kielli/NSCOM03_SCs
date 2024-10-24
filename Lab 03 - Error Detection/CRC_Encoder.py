@@ -25,7 +25,6 @@ if __name__ == "__main__":
     message = '1010011010'
     generator = '110101'
     keylen = len(generator)
-    test = 1
 
     long_division_remainder = longDivision(message, generator)
     shift_register_remainder = shiftRegister(message, generator)
